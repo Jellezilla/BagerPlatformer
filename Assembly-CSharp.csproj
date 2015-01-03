@@ -53,6 +53,9 @@
      <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\Intro.cs" />
      <Compile Include="Assets\Scripts\MovingWall.cs" />
+     <Compile Include="Assets\Scripts\ParallaxBackground.cs" />
+     <Compile Include="Assets\Scripts\ParallaxCamera.cs" />
+     <Compile Include="Assets\Scripts\ParallaxLayer.cs" />
      <Compile Include="Assets\Scripts\Pauser.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />

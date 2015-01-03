@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Gun.cs">
+    <Files>
+      <File FileName="..\..\..\..\Projekter\OttoDragonMaze\Assets\DragonMovement.cs" Line="19" Column="60" />
+      <File FileName="..\..\..\..\Projekter\OttoDragonMaze\Assets\TreasureScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Rocket.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Gun.cs" Line="35" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -43,6 +43,7 @@ public class PlayerControl : MonoBehaviour
 
 
 	float levelcompletetime=0; //Time level was completed
+	private bool wasGrounded = false;
 
 	void Awake()
 	{
@@ -124,6 +125,21 @@ public class PlayerControl : MonoBehaviour
 			// Make sure the player can't jump again until the jump conditions from Update are satisfied.
 			jump = false;
 		}
+	//	Debug.Log ("Horizontal: "+ Input.GetAxis("Horizontal").ToString());
+		//If player is grounded, stop horizontal movement if player is not pressing a button
+		if ((grounded) && (!wasGrounded))
+		{
+			if (Mathf.Abs(Input.GetAxis("Horizontal")) < .05f)
+				
+			{
+
+				//   print("Stopped horizontal movement, was " + rigidbody2D.velocity);
+				Debug.Log("stopped horizontal movement!");
+				rigidbody2D.velocity = new Vector2(0, 0);
+			}
+		}
+		wasGrounded = grounded;
+
 	}
 	
 	
@@ -137,7 +153,7 @@ public class PlayerControl : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-	
+
 
 	/// <summary>
 	/// This is where you should make the player pick up things
@@ -180,5 +196,5 @@ public class PlayerControl : MonoBehaviour
 		//	Destroy(collision.collider.gameObject);
 		}
 
-}
+	}
 }

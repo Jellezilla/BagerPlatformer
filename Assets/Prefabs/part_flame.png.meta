@@ -48,20 +48,20 @@ TextureImporter:
     - name: flame1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 103
-        width: 232
-        height: 105
+        x: 2
+        y: 0
+        width: 102
+        height: 229
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: flame2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 230
-        height: 101
+        x: 105
+        y: 4
+        width: 103
+        height: 228
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

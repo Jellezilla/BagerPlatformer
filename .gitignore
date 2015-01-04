@@ -35,6 +35,7 @@ Library/expandedItems
 Library/metadata
 Library/previews
 Library/guidmapper
+Library/
 Temp
 *.csproj
 *.pidb
@@ -50,7 +51,7 @@ ehthumbs.db
 *.csproj
 
 *.meta
-
+Library/metadata/505e7d9cb9fd14a45bdd00f6282fa528
 Library/metadata/0a/0a98e962107b5eb4ca49029a14a87eaf
 
 Library/metadata/11/11faa5fab8823454b844cb5f33ab496a
@@ -102,3 +103,9 @@ Library/metadata/dc/dcb0c6009da45114b96511070946b2ad
 *.mdb
 
 *.dll
+Library/metadata/50/505e7d9cb9fd14a45bdd00f6282fa528
+Library/metadata/50/505e7d9cb9fd14a45bdd00f6282fa528
+Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+Library/metadata/50/505e7d9cb9fd14a45bdd00f6282fa528
+Library/metadata/50/505e7d9cb9fd14a45bdd00f6282fa528
+*.mdb

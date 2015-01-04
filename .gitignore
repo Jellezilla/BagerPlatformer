@@ -109,3 +109,5 @@ Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
 Library/metadata/50/505e7d9cb9fd14a45bdd00f6282fa528
 Library/metadata/50/505e7d9cb9fd14a45bdd00f6282fa528
 *.mdb
+*.mdb
+*.audio

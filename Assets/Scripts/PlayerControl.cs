@@ -153,7 +153,7 @@ public class PlayerControl : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-	
+
 
 	/// <summary>
 	/// This is where you should make the player pick up things
@@ -196,5 +196,5 @@ public class PlayerControl : MonoBehaviour
 		//	Destroy(collision.collider.gameObject);
 		}
 
-}
+	}
 }

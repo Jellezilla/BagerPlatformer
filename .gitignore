@@ -23,6 +23,23 @@ sysinfo.txt
 # ============ #
 # OS generated #
 # ============ #
+.DS_Store
+Library/AssetImportState
+Library/AssetServerCacheV3
+Library/FailedAssetImports.txt
+Library/ScriptAssemblies
+Library/ScriptMapper
+Library/assetDatabase3
+Library/cache
+Library/expandedItems
+Library/metadata
+Library/previews
+Library/guidmapper
+Temp
+*.csproj
+*.pidb
+*.sln
+
 .DS_Store*
 ._*
 .Spotlight-V100
@@ -79,3 +96,9 @@ Library/metadata/dc/dcb0c6009da45114b96511070946b2ad
 *.dll
 
 *.mdb
+
+*.dll
+
+*.mdb
+
+*.dll

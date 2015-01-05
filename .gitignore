@@ -41,8 +41,20 @@ obj/
 ehthumbs.db
 Thumbs.db
 *.meta
+<<<<<<< HEAD
 Library/assetDatabase3
 
 Library/AssetServerCacheV3
 
 Library/guidmapper
+=======
+*.meta
+>>>>>>> FETCH_HEAD
+
+*.csproj
+
+*.meta
+
+Library/assetDatabase3
+
+*.csproj

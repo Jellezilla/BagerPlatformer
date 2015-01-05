@@ -3,6 +3,17 @@
 # =============== #
 Temp/
 Library/
+.DS_Store
+ Temp/*
+ Library/previews/*
+ Library/ScriptAssemblies/*
+ Library/cache/*
+ Library/metadata/*
+ Library/*
+ !Library/*.asset
+ 
+ *.userprefs
+ *.sln
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
@@ -30,3 +41,8 @@ obj/
 ehthumbs.db
 Thumbs.db
 *.meta
+Library/assetDatabase3
+
+Library/AssetServerCacheV3
+
+Library/guidmapper

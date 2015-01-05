@@ -38,10 +38,9 @@ obj/
 .Trashes
 ehthumbs.db
 Thumbs.db
-*.meta
 
 Library/AssetServerCacheV3
 
 Library/guidmapper
-*.meta
+
 *.csproj

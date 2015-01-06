@@ -1791,7 +1791,7 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 105955438}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 5f3c0ff6a41a3f74facc8dc059f4f032, type: 3}
   m_PlayOnAwake: 1
@@ -6520,7 +6520,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 1265512975}
   m_GameObject: {fileID: 363851492}
   m_Mass: 2
-  m_LinearDrag: 0
+  m_LinearDrag: .0500000007
   m_AngularDrag: .0500000007
   m_GravityScale: 1
   m_FixedAngle: 1
@@ -21384,6 +21384,18 @@ Prefab:
     - target: {fileID: 400014, guid: c71f0628c810d09449559c1c4af2231c, type: 2}
       propertyPath: m_RootOrder
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: c71f0628c810d09449559c1c4af2231c, type: 2}
+      propertyPath: moveForce
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000000, guid: c71f0628c810d09449559c1c4af2231c, type: 2}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000000, guid: c71f0628c810d09449559c1c4af2231c, type: 2}
+      propertyPath: m_LinearDrag
+      value: .0500000007
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c71f0628c810d09449559c1c4af2231c, type: 2}

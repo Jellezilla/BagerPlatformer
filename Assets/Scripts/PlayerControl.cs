@@ -60,7 +60,6 @@ public class PlayerControl : MonoBehaviour
 		{
 			if (Time.time-levelcompletetime>1) {
 				nextlevel = Application.loadedLevel;
-				Debug.Log ("Nextlevel: " + nextlevel);
 				Application.LoadLevel(nextlevel+1);
 				Score.lives = 10;
 				Score.score += Score.levelscore;
@@ -125,20 +124,28 @@ public class PlayerControl : MonoBehaviour
 			// Make sure the player can't jump again until the jump conditions from Update are satisfied.
 			jump = false;
 		}
-	//	Debug.Log ("Horizontal: "+ Input.GetAxis("Horizontal").ToString());
+
 		//If player is grounded, stop horizontal movement if player is not pressing a button
-		if ((grounded) && (!wasGrounded))
+		if ((grounded) )// && (!wasGrounded))
 		{
-			if (Mathf.Abs(Input.GetAxis("Horizontal")) < .05f)
+
+			if (Mathf.Abs(Input.GetAxis("Horizontal")) < .1f)
 				
 			{
-
+				float vertical = Input.GetAxis("Vertical");
+				Vector2 movement = new Vector2(0, vertical);
+				//rigidbody2D.AddForce(movement);
 				//   print("Stopped horizontal movement, was " + rigidbody2D.velocity);
 				Debug.Log("stopped horizontal movement!");
-				rigidbody2D.velocity = new Vector2(0, 0);
+
+				//rigidbody2D.velocity = new Vector2(0,0);
+
+
 			}
 		}
 		wasGrounded = grounded;
+
+
 
 	}
 	

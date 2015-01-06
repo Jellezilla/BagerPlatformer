@@ -31,14 +31,14 @@ public class WallTrigger : MonoBehaviour {
 						transform.position = new Vector2( transform.position.x, posY);
 			}
 		}
-		if (Input.GetKeyDown (KeyCode.G))
+		if (Input.GetKeyDown (KeyCode.O))
 						
 			if (active == true)
 				active = false;
 			else {
 				active = true;
 			}
-		if (Input.GetKeyDown (KeyCode.F))
+		if (Input.GetKeyDown (KeyCode.I))
 						Explode ();
 	}
 	void Explode() {

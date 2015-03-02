@@ -28,9 +28,9 @@ public class Soundtrack : MonoBehaviour {
 	private void PlaySoundtracks() {
 		audio.clip = sound2;
 		audio.Play ();
-		Debug.Log ("first song!")
+		Debug.Log ("first song!");
 		StartCoroutine(WaitMethod(sound1.length));
-		Debug.Log ("second song!")
+		Debug.Log ("second song!");
 		audio.clip = sound1;
 		audio.Play ();
 	}
@@ -38,7 +38,7 @@ public class Soundtrack : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown (KeyCode.G)) 
+
 
 	}
 
